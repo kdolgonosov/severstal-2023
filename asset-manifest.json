@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/severstal-2023/static/css/main.60e7d83f.css",
+    "main.js": "/severstal-2023/static/js/main.07f4421f.js",
+    "static/media/github.png": "/severstal-2023/static/media/github.51e67b314e4c414c667c.png",
+    "static/media/telegram.png": "/severstal-2023/static/media/telegram.f39a17d5a5c017edf829.png",
+    "index.html": "/severstal-2023/index.html",
+    "static/media/cross.svg": "/severstal-2023/static/media/cross.519f44090103773ee5cb8fac793bc58b.svg",
+    "main.60e7d83f.css.map": "/severstal-2023/static/css/main.60e7d83f.css.map",
+    "main.07f4421f.js.map": "/severstal-2023/static/js/main.07f4421f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60e7d83f.css",
+    "static/js/main.07f4421f.js"
+  ]
+}
