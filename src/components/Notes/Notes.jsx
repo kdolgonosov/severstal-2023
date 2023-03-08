@@ -64,6 +64,7 @@ const Notes = () => {
         setDialogOpened(false);
         setTextInput('');
         setTitleInput('Новая заметка');
+        setUrlInput('');
     };
     const handleTextInputChange = (e) => {
         setTextInput(e.target.value);
@@ -168,7 +169,7 @@ const Notes = () => {
                 <TextField
                     variant='standard'
                     margin='dense'
-                    label={'Поиск по полю ' + `${searchByField}`}
+                    label={'Поиск по ' + `${searchByField === 'title' ? 'заголовку' : 'тексту'}`}
                     fullWidth
                     onChange={handleSearchInputChange}
                     value={searchInput}
